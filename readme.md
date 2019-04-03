@@ -24,9 +24,7 @@ There are two types of storyboards. The high quality storyboard contains a grid 
 The length is taken from the ```get_video_info``` api and can be found at ```videoDetails.lengthSeconds```
 
 ## Usage example
-```const storyboard = require("yt-storyboard"); 
-
-storyboard('http://i9.ytimg.com/sb/9uOMectkCCs/storyboard3_L$L/$N.jpg?sqp=ovOX_wMGCKW2vKsF|48#27#100#10#10#0#default#rs$AOn4CLCNr0dLoPEuLTmvgQbfRHhohzQoxQ|80#45#102#10#10#10000#M$M#rs$AOn4CLCm3R4Yp_0X1CqEsnZDVTJQHwhJJg|160#90#102#5#5#10000#M$M#rs$AOn4CLAJEdtW7F-Hpv1Vp3IrGoTCTwn7TA', true, 1002)```
+```storyboard('http://i9.ytimg.com/sb/9uOMectkCCs/storyboard3_L$L/$N.jpg?sqp=ovOX_wMGCKW2vKsF|48#27#100#10#10#0#default#rs$AOn4CLCNr0dLoPEuLTmvgQbfRHhohzQoxQ|80#45#102#10#10#10000#M$M#rs$AOn4CLCm3R4Yp_0X1CqEsnZDVTJQHwhJJg|160#90#102#5#5#10000#M$M#rs$AOn4CLAJEdtW7F-Hpv1Vp3IrGoTCTwn7TA', true, 1002)```
 
 ## License
 MIT
