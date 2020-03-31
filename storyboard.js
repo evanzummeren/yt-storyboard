@@ -10,8 +10,11 @@ module.exports = function storyboard(spec, hq, seconds) {
   let baseUrlHq = specParts[0].split('$')[0] + '2/';
   let baseUrlLq = specParts[0].split('$')[0] + '1/';
   let sgpPart = specParts[0].split('$N')[1];
-  let sighPartHq = specParts[3].split('M#')[1];
-  let sighPartLq = specParts[2].split('M#')[1];
+
+  // console.log(specPartsLength);
+
+  let sighPartHq = specParts[specPartsLength].split('M#')[1];
+  let sighPartLq = specParts[specPartsLength-1].split('M#')[1];
 
   let storyboardArray = [];
 
