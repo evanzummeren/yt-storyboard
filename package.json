@@ -9,8 +9,8 @@
   "author": "Erik van Zummeren <erikvanzummeren@gmail.com>",
   "homepage": "https://github.com/evanzummeren/yt-storyboard",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/evanzummeren/yt-storyboard.git"
+    "type": "git",
+    "url": "https://github.com/evanzummeren/yt-storyboard.git"
   },
   "license": "MIT"
 }
