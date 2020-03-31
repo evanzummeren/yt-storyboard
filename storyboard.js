@@ -14,8 +14,6 @@ module.exports = function storyboard(returnType, spec, hq, seconds) {
   let sighPartHq;
   let sighPartLq;
 
-  console.log(specParts.length)
-
   if(specParts.length === 3 ) {
     sighPartHq = specParts[2].split('M#')[1];
     sighPartLq = specParts[1].split('M#')[1];
