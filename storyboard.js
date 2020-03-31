@@ -54,7 +54,14 @@ module.exports = function storyboard(returnType, spec, hq, seconds) {
       firstPart: `${baseUrlHq}M`,
       secondPart: `${sgpPart}&sigh=${sighPartHq}`
     }
-
+    return obj;
+  } else if (returnType === "keys") {
+    let obj = {
+      sgp: sgpPart,
+      sigh: sighPartHq
+    }    
+    
     return obj;
   }
+
 }
