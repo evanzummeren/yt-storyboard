@@ -11,6 +11,7 @@ module.exports = function storyboard(returnType, spec, hq, seconds) {
   let baseUrlLq = specParts[0].split('$')[0] + '1/';
   let sgpPart = specParts[0].split('$N')[1];
 
+  console.log(sgpPart);
   let sighPartHq;
   let sighPartLq;
 
@@ -57,7 +58,7 @@ module.exports = function storyboard(returnType, spec, hq, seconds) {
     return obj;
   } else if (returnType === "keys") {
     let obj = {
-      sgp: sgpPart,
+      sgp: sgpPart.slice(9),
       sigh: sighPartHq
     }    
     
