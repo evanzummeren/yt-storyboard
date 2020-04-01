@@ -14,13 +14,10 @@ module.exports = function storyboard(returnType, spec, hq, seconds) {
   let sighPartHq;
   let sighPartLq;
 
-  console.log(specParts.length);
-
   if(specParts.length === 3 ) {
     sighPartHq = specParts[2].split('M#')[1];
     sighPartLq = specParts[1].split('M#')[1];
   } else if (specParts.length === 2)  {
-    console.log(specParts[1])
     sighPartHq = specParts[1].split('t#')[1];
     // sighPartLq = specParts[0].split('M#')[1];
 
