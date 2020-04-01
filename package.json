@@ -1,6 +1,6 @@
 {
   "name": "yt-storyboard",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "A simple parser for YouTube storyboards",
   "main": "storyboard.js",
   "scripts": {
